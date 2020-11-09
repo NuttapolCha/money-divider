@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Divider Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-panel">
+        <form id="add-expense">
+            <label>
+                เพิ่มค่าใช้จ่าย:
+                <input type="text" placeholder="รายการค่าใช้จ่าย" id="add-expense-menu" required>
+                จำนวนเงิน:
+                <input type="number" id="add-expense-price" required placeholder="0">
+                <input type="submit" id="add-expense-submit" value="เพิ่มรายการใช้จ่าย">
+            </label>
+        </form>
+        <form id="add-person">
+            <label>
+                เพิ่มคน:
+                <input type="text" placeholder="ชื่อคนที่จะเพิ่ม" id="add-person-name" required> 
+                <input type="submit" id="add-person-submit" value="เพิ่มคน">
+            </label>     
+        </form>
+    </div>
+    <table id="summary-table">
+        <tr class="title">
+            <th>รายการใช้จ่าย</th>
+            <th>รวมทุกคน</th>
+        </tr>
+        <tr class="footer">
+            <td>จ่ายเพิ่ม/ได้คืน</td>
+            <td>0</td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>

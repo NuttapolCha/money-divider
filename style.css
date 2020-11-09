@@ -1,0 +1,61 @@
+body {
+    margin: 40px 40px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-collapse: collapse;
+    width: 100%;
+    border: white solid 1px;
+    margin: 20px;
+    table-layout: fixed;
+  }
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table td ,table th {
+    border-top: 1px solid #ddd;
+    padding: 8px;
+    block-size: fixed;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+table .footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+}
+
+input {
+    padding: 5px 2px;
+}
+
+#add-expense, #add-person {
+    margin: 10px;
+}
+
+#add-expense-submit, #add-person-submit {
+    background-color: rgb(39, 120, 243);
+    color: white;
+    padding: 5px 10px;
+    border: rgb(39, 120, 243) 2px;
+    margin: 2px;
+}
+
+#add-expense-submit:hover, #add-person-submit:hover {
+    background-color: rgb(170, 202, 250);
+    color: white;
+    padding: 5px 10px;
+    border: rgb(170, 202, 250) 2px;
+    margin: 2px;
+}
